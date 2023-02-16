@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 70%; 
+    height: 500px;
+    margin: auto;    
+}
+
+img{
+    display: block;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #E4306F;
+    font-family: 'Fredoka One', cursive;
+}
+
+.descrizione{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.info > p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #0E82CE;
+}
+
+
+.container-1, .container-2{
+    margin: 30px 0 30px 0;
+}
+
+.profile-1{
+    float: left;
+    width: 30%;
+    background-color: black;
+    color: white;   
+    border-radius: 10px;
+}
+
+.profile-2{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.profile-right{
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: white;  
+    border-radius: 10px;
+}
+
+
+
+
+
+
